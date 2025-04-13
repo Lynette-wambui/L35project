@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Website project: Navigation bar, Layout and Banner</title>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Font Awesome -->
+    
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    
+    <!-- Google Fonts -->
+    
+    <link
+    
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"rel="stylesheet" />
+    <style>
+         body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background: linear-gradient(to right, purple);
+        color: black;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(to right, red, rgb(163, 86, 86));
+        padding: 15px 30px;
+        color: beige;
+
+    }
+    .navbar .name{
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .navbar .links a{
+        color: white;
+        margin-left: 15px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        transition: color 0.3s;
+    }
+    .navbar .links a:hover{
+        color: bisque;
+    }
+    #about img{
+        border-radius: 58%;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border: 5px solid plum;
+        box-shadow: 0px 0px 15px rgb(112, 22, 112);
+    }
+    #menu {
+        padding: 20px;
+        background: linear-gradient(to right, pink, red);
+        color: beige;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    #menu button{
+        background-color: palevioletred;
+        border: 2px solid papayawhip;
+        padding: 10px 15px;
+
+    }
+    #menu button:hover{
+        background-color: burlywood;
+        color: white;
+    }
+    .container .card{
+        width: 300px;
+        height: 400px;
+        margin: auto;
+        box-shadow: 0 4px 8px black;
+        background: linear-gradient(to right, palevioletred, purple);
+        background: rgb(168, 119, 14);   
+     }
+        #contact{
+            padding: 20px;
+            background: peru;
+            color: beige;
+            border-radius: 20px;
+            margin: 20px;
+            background: linear-gradient(to right, orange, yellow );
+            
+
+
+        }
+        #contact a{
+            color: beige;
+
+        }
+        .logo{
+            font-family: cursive;
+            font-weight: 700;
+        }
+       
+    #contact button{
+        background-color: brown;
+        border: 2px solid papayawhip;
+        padding: 10px 15px;
+
+    }
+    #contact button:hover{
+        background-color: peru;
+        color: white;
+    }
+    #about {
+        padding: 20px;
+        background: linear-gradient(to right,papayawhip, purple);
+        color: beige;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    #about button{
+        background-color: powderblue;
+        border: 2px solid papayawhip;
+        padding: 10px 15px;
+
+    }
+    #about button:hover{
+        background-color: burlywood;
+        color: white;
+    }
+
+    </style>
+    </head>
+    <body>
+        <center>
+            <div class="navbar">
+                <div class="name">Malaika Restaurant</div>
+                <div class="links">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <section id="about"> 
+            <h2>About the restaurant</h2>
+            <img src="gif.img">
+            <p> <b>Malaika Restaurant</b>,is a five-star hotel stipulated in the beautiful environs of Nairobi...</p>
+            <p><blockquote>"It is the best hotel I have been to."</blockquote>New York Times</p>
+        <br><button>More info</button>
+    </section>
+    </div>
+   
+    
+    <section id="menu">
+        <h2>Menu</h2>
+        <li>This are the famous meals on my menu</li>
+        <a href="https://shop-villarosakempinski.com/collections/all"><button>View my menu</button></a>
+    
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <a href="lynettemuraga47@gmail.com"><button>Email me</button></a>
+    
+    </section>
+   
+
+    <!--Footer-->
+    <footer>
+        <div class="container text-muted text-center py-3 mt-5"></div>
+        <h5>Copyright & copy; 2025 |</h5>
+        <a class="text-warning text-decoration-none" href="about">All Rights Are Reserved By Malkia Restaurant</a>
+    </footer>
+        </center>
+        
+    </body>
+
+    
+
+</html>
